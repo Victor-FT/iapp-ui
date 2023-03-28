@@ -1,5 +1,11 @@
 # @iapp-ui/react
 
+## 3.0.2
+
+### Patch Changes
+
+- Adjust typeof TextInput
+
 ## 3.0.1
 
 ### Patch Changes
