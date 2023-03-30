@@ -5,7 +5,7 @@ export const Button = styled('button', {
   all: 'unset',
   borderRadius: '$sm',
   fontSize: '$sm',
-  fontWeight: '$medium',
+  fontWeight: '$bold',
   fontFamily: '$default',
   textAlign: 'center',
   minWidth: 120,
@@ -36,10 +36,10 @@ export const Button = styled('button', {
     variant: {
       primary: {
         color: '$white',
-        background: '$ignite500',
+        background: '$iapp500',
 
         '&:not(:disabled):hover': {
-          background: '$ignite300',
+          background: '$iapp300',
         },
 
         '&:disabled': {
@@ -48,11 +48,11 @@ export const Button = styled('button', {
       },
 
       secondary: {
-        color: '$ignite300',
-        border: '2px solid $ignite500',
+        color: '$iapp300',
+        border: '2px solid $iapp500',
 
         '&:not(:disabled):hover': {
-          background: '$ignite500',
+          background: '$iapp500',
           color: '$white',
         },
 
