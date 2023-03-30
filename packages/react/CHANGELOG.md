@@ -1,5 +1,11 @@
 # @iapp-ui/react
 
+## 3.0.4
+
+### Patch Changes
+
+- change Radii Box to $xs
+
 ## 3.0.3
 
 ### Patch Changes
