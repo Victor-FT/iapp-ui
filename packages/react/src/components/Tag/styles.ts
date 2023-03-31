@@ -2,7 +2,16 @@ import { styled } from '../../styles'
 import { Box } from '../Box'
 import { Text } from '../Text'
 
-export const TagContainer = styled(Box, {
+export const QuantityBox = styled('div', {
+  padding: '0 $1',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  background: '$gray600',
+  borderRadius: '$xs',
+})
+
+export const TagContainer = styled('button', Box, {
   display: 'flex',
   gap: '$2',
   padding: '$2',
@@ -10,6 +19,20 @@ export const TagContainer = styled(Box, {
   float: 'left',
   clear: 'left',
   alignItems: 'center',
+  cursor: 'pointer',
+  transition: 'all 0.2s',
+
+  '&:hover': {
+    background: '$gray700',
+  },
+
+  variants: {
+    active: {
+      true: {
+        border: '1px solid $iapp500',
+      },
+    },
+  },
   // justifyContent: 'center',
 })
 
@@ -24,15 +47,6 @@ export const Name = styled(Text, {
   lineHeight: '$shorter',
   FontWeight: 'strong',
   textTransform: 'capitalize',
-})
-
-export const QuantityBox = styled('div', {
-  padding: '0 $1',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  background: '$gray400',
-  borderRadius: '$xs',
 })
 
 export const Quantity = styled(Text, {

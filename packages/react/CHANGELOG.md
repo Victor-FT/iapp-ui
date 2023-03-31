@@ -1,5 +1,11 @@
 # @iapp-ui/react
 
+## 3.0.6
+
+### Patch Changes
+
+- Add Button and active variant to Tag
+
 ## 3.0.5
 
 ### Patch Changes

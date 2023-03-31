@@ -12,3 +12,9 @@ export default {
 } as Meta<TagProps>
 
 export const Primary: StoryObj<TagProps> = {}
+
+export const Active: StoryObj<TagProps> = {
+  args: {
+    active: true,
+  },
+}
