@@ -1,5 +1,11 @@
 # @iapp-ui/react
 
+## 3.0.5
+
+### Patch Changes
+
+- Capitalize Tag Name
+
 ## 3.0.4
 
 ### Patch Changes

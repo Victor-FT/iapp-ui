@@ -23,6 +23,7 @@ export const Color = styled('div', {
 export const Name = styled(Text, {
   lineHeight: '$shorter',
   FontWeight: 'strong',
+  textTransform: 'capitalize',
 })
 
 export const QuantityBox = styled('div', {
