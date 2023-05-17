@@ -40,6 +40,8 @@ export const Color = styled('div', {
   backgroundColor: 'var(--tag-color)',
   height: '$3',
   width: '$3',
+  minWidth: '$3',
+  minHeight: '$3',
   borderRadius: '$full',
   lineHeight: 0,
 })

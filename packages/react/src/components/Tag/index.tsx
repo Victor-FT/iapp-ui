@@ -3,7 +3,7 @@ import { TagContainer, Color, Name, QuantityBox, Quantity } from './styles'
 
 export interface TagProps extends ComponentProps<typeof TagContainer> {
   name: string
-  quantity: number
+  quantity?: number
   color: string
 }
 
@@ -12,9 +12,11 @@ export function Tag({ name, quantity, color = '#FFF', ...rest }: TagProps) {
     <TagContainer {...rest}>
       <Color css={{ '--tag-color': color }} />
       <Name size="sm">{name}</Name>
-      <QuantityBox>
-        <Quantity size="sm">{quantity}</Quantity>
-      </QuantityBox>
+      {quantity && (
+        <QuantityBox>
+          <Quantity size="sm">{quantity}</Quantity>
+        </QuantityBox>
+      )}
     </TagContainer>
   )
 }

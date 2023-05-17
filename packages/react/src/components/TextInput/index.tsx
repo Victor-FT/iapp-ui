@@ -7,12 +7,14 @@ export interface TextInputProps
   size?: ComponentProps<typeof TextInputContainer>['size']
 }
 
+const options = ['Opção 1', 'Opção 2', 'Opção 3']
+
 export const TextInput = forwardRef<ElementRef<typeof Input>, TextInputProps>(
   ({ prefix, size, ...props }: TextInputProps, ref) => {
     return (
       <TextInputContainer size={size}>
         {!!prefix && <Prefix>{prefix}</Prefix>}
-        <Input ref={ref} {...props} />
+        <Input ref={ref} id="name" {...props} />
       </TextInputContainer>
     )
   },

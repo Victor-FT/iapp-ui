@@ -45,9 +45,15 @@ export const Input = styled('input', {
   fontSize: '$sm',
   color: '$white',
   fontWeight: 'regular',
-  background: 'transparent',
+  background: '$gray900',
   border: 0,
   width: '100%',
+
+  '&:-webkit-autofill &:-webkit-autofill:hover &:-webkit-autofill:active': {
+    backgroundColor: '$gray900 !important',
+    color: '$white !important',
+    transition: 'background-color 5000s ease-in-out 0s',
+  },
 
   '&:focus': {
     outline: 0,

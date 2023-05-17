@@ -1,5 +1,17 @@
 # @iapp-ui/react
 
+## 3.0.8
+
+### Patch Changes
+
+- Tag Changed
+
+## 3.0.7
+
+### Patch Changes
+
+- patch tags componen
+
 ## 3.0.6
 
 ### Patch Changes
