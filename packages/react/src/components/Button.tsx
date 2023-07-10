@@ -32,6 +32,8 @@ export const Button = styled('button', {
     boxShadow: '0 0 0 2px $colors$gray100',
   },
 
+  transition: 'all 0.2s',
+
   variants: {
     variant: {
       primary: {

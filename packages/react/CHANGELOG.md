@@ -1,5 +1,11 @@
 # @iapp-ui/react
 
+## 3.0.9
+
+### Patch Changes
+
+- Button edit
+
 ## 3.0.8
 
 ### Patch Changes

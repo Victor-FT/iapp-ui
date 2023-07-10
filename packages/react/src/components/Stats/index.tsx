@@ -1,7 +1,7 @@
 import { Description, StatsContainer, Amount } from './styles'
 
 export interface StatsProps {
-  amount: number
+  amount: number | string
   description: string
 }
 
