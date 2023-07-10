@@ -1,0 +1,2 @@
+import{A as t}from"./index.661b5db6.js";import"./index.fc43da7f.js";import"./iframe.20084f72.js";import"./index.b63f8551.js";import"./jsx-runtime.199d38a7.js";const c={title:"Data display/Avatar",component:t,args:{src:"https://github.com/victor-FT.png",alt:"Victor Tavares"},argTypes:{src:{control:{type:"text"}}}},p={},e={args:{src:void 0}},m=["Primary","WithFallback"];export{p as Primary,e as WithFallback,m as __namedExportsOrder,c as default};
+//# sourceMappingURL=Avatar.stories.c5de79d1.js.map
